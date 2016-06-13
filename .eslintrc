@@ -1,0 +1,38 @@
+{
+  "parser"  : "babel-eslint",
+  "plugins" : [
+    "react"
+  ],
+  "extends" : [
+    "eslint:recommended",
+    "standard",
+    "standard-react"
+  ],
+  "env"     : {
+    "browser" : true,
+    "node": true,
+    "es6": true
+  },
+  "globals" : {
+    "Action"       : false,
+    "__DEV__"      : false,
+    "__PROD__"     : false,
+    "__DEBUG__"    : false,
+    "__COVERAGE__" : false,
+    "__BASENAME__" : false
+  },
+  "rules": {
+    "brace-style": ["error", "stroustrup", { "allowSingleLine": true }],
+    "max-len": [2, 120, 2],
+    "no-extra-parens": 0,
+    "no-console": 0,
+    "no-multiple-empty-lines": ["error", {"max": 2}],
+    "no-unused-vars": 0,
+    "semi" : [2, "always"],
+    "space-before-function-paren": ["error", "never"],
+
+    "react/jsx-no-bind": ["error", {"allowArrowFunctions": true}],
+    "react/jsx-uses-react": 1,
+    "react/jsx-uses-vars": 1
+  }
+}
