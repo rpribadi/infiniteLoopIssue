@@ -1,5 +1,12 @@
 # infiniteLoopIssue
 
+This is a sample for investigating this issue: https://github.com/mjrussell/redux-auth-wrapper/issues/44
+
+To run:
+```shell
+    npm start
+```
+
 To enable infinite loop:
 
 ```javascript
